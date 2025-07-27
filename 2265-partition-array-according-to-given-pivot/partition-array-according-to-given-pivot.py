@@ -10,8 +10,4 @@ class Solution(object):
                 list2.append(i)
             else:
                 list3.append(i)
-        for i in list2:
-            list1.append(i)
-        for j in list3:
-            list1.append(j)
-        return list1      
+        return list1 + list2 + list3
