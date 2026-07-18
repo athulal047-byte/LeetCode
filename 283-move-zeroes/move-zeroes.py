@@ -7,5 +7,5 @@ class Solution(object):
             else:
                 nums[l],nums[r]=nums[r],nums[l]
                 l=l+1
-        return nums
+        
         
