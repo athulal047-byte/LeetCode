@@ -5,7 +5,8 @@ class Solution:
         for r in range(len(nums)):
             if nums[r]==0:
                 l= r+1
-            w =(r-l)+1
-            lar = max(lar,w)
+            else:
+                w =(r-l)+1
+                lar = max(lar,w)
         return lar
         
